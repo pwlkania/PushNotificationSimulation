@@ -69,9 +69,8 @@
 		4875241E2333855D00CC8AB5 /* PushNotificationSimulation */ = {
 			isa = PBXGroup;
 			children = (
-				4875241F2333855D00CC8AB5 /* PushNotificationSimulation.h */,
+				4875245D2333905A00CC8AB5 /* Source */,
 				487524202333855D00CC8AB5 /* Info.plist */,
-				4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */,
 			);
 			path = PushNotificationSimulation;
 			sourceTree = "<group>";
@@ -87,6 +86,15 @@
 				48752457233385D000CC8AB5 /* Info.plist */,
 			);
 			path = PushNotificationSimulationExamples;
+			sourceTree = "<group>";
+		};
+		4875245D2333905A00CC8AB5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4875241F2333855D00CC8AB5 /* PushNotificationSimulation.h */,
+				4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
