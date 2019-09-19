@@ -9,13 +9,7 @@ import UIKit
 
 // MARK: - PushNotificationSimulation
 
-public protocol PushNotificationSimulation {
-    
-    // MARK: Properties
-    
-    /// App object
-    var app: UIApplication? { get set }
-}
+public protocol PushNotificationSimulation { }
 
 // MARK: - PushNotificationSimulation where UIApplicationDelegate
 
@@ -36,12 +30,12 @@ public extension PushNotificationSimulation where Self: UIApplicationDelegate {
             return json
         }
         
-        guard let userInfo = convertToDictionary(payload), let app = app else {
+        guard let userInfo = convertToDictionary(payload) else {
             debugPrint("Unable to send simulated push notification!")
             return
         }
         
-        application?(app, didReceiveRemoteNotification: userInfo, fetchCompletionHandler: { _ in })
+        application?(UIApplication.shared, didReceiveRemoteNotification: userInfo, fetchCompletionHandler: { _ in })
         
         debugPrint("Simulated push notification sent!")
     }

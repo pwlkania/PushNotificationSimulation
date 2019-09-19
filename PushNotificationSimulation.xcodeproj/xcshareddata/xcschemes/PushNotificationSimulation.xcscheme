@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "48BF2B222333B00C00B215DB"
+               BuildableName = "PushNotificationSimulationTests.xctest"
+               BlueprintName = "PushNotificationSimulationTests"
+               ReferencedContainer = "container:PushNotificationSimulation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4875241B2333855D00CC8AB5"
+            BuildableName = "PushNotificationSimulation.framework"
+            BlueprintName = "PushNotificationSimulation"
+            ReferencedContainer = "container:PushNotificationSimulation.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

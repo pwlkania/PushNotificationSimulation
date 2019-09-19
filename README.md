@@ -32,7 +32,7 @@ iOS 11.0
 
 ## Initialization
 
-First of all, you need to modify your `AppDelegate.swift` file:
+Modify your `AppDelegate.swift` file:
 
 Import `PushNotificationSimulation` framework (if needed):
 
@@ -47,33 +47,6 @@ Implement `PushNotificationSimulation` protocol:
 extension AppDelegate: PushNotificationSimulation { }
 #endif
 ```
-
-Implement required property from `PushNotificationSimulation` protocol:
-
-```swift
-#if DEBUG
-weak var app: UIApplication?
-#endif
-```
-
-Assign `UIApplication` object to `app` property:
-
-```swift
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // Your code...
-        
-    #if DEBUG
-    app = application
-    #endif
-        
-    // Your code...
-    return true
-}
-```
-
-Your `AppDelegate.swfit` file should look similar to this:
-
-![AppDelegate.png](AppDelegate.png)
 
 ## Usage
 
