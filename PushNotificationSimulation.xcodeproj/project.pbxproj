@@ -14,18 +14,7 @@
 		48752453233385D000CC8AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48752452233385D000CC8AB5 /* Assets.xcassets */; };
 		48752456233385D000CC8AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48752454233385D000CC8AB5 /* LaunchScreen.storyboard */; };
 		4875245C233387F600CC8AB5 /* PushNotificationSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */; };
-		48BF2B282333B00D00B215DB /* PushNotificationSimulation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4875241C2333855D00CC8AB5 /* PushNotificationSimulation.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		48BF2B292333B00D00B215DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 487524132333855D00CC8AB5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4875241B2333855D00CC8AB5;
-			remoteInfo = PushNotificationSimulation;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4875241C2333855D00CC8AB5 /* PushNotificationSimulation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PushNotificationSimulation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +28,6 @@
 		48752455233385D000CC8AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48752457233385D000CC8AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSimulation.swift; sourceTree = "<group>"; };
-		48BF2B232333B00C00B215DB /* PushNotificationSimulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationSimulationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48BF2B202333B00C00B215DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48BF2B282333B00D00B215DB /* PushNotificationSimulation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +62,6 @@
 			children = (
 				4875241C2333855D00CC8AB5 /* PushNotificationSimulation.framework */,
 				48752449233385CF00CC8AB5 /* PushNotificationSimulationExamples.app */,
-				48BF2B232333B00C00B215DB /* PushNotificationSimulationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,24 +138,6 @@
 			productReference = 48752449233385CF00CC8AB5 /* PushNotificationSimulationExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
-		48BF2B222333B00C00B215DB /* PushNotificationSimulationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48BF2B2D2333B00D00B215DB /* Build configuration list for PBXNativeTarget "PushNotificationSimulationTests" */;
-			buildPhases = (
-				48BF2B1F2333B00C00B215DB /* Sources */,
-				48BF2B202333B00C00B215DB /* Frameworks */,
-				48BF2B212333B00C00B215DB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				48BF2B2A2333B00D00B215DB /* PBXTargetDependency */,
-			);
-			name = PushNotificationSimulationTests;
-			productName = PushNotificationSimulationTests;
-			productReference = 48BF2B232333B00C00B215DB /* PushNotificationSimulationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,9 +159,6 @@
 							};
 						};
 					};
-					48BF2B222333B00C00B215DB = {
-						CreatedOnToolsVersion = 10.3;
-					};
 				};
 			};
 			buildConfigurationList = 487524162333855D00CC8AB5 /* Build configuration list for PBXProject "PushNotificationSimulation" */;
@@ -217,7 +175,6 @@
 			projectRoot = "";
 			targets = (
 				4875241B2333855D00CC8AB5 /* PushNotificationSimulation */,
-				48BF2B222333B00C00B215DB /* PushNotificationSimulationTests */,
 				48752448233385CF00CC8AB5 /* PushNotificationSimulationExamples */,
 			);
 		};
@@ -241,13 +198,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48BF2B212333B00C00B215DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -268,22 +218,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48BF2B1F2333B00C00B215DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		48BF2B2A2333B00D00B215DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4875241B2333855D00CC8AB5 /* PushNotificationSimulation */;
-			targetProxy = 48BF2B292333B00D00B215DB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4875244F233385D000CC8AB5 /* Main.storyboard */ = {
@@ -512,42 +447,6 @@
 			};
 			name = Release;
 		};
-		48BF2B2B2333B00D00B215DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PushNotificationSimulationTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PushNotificationSimulationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		48BF2B2C2333B00D00B215DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PushNotificationSimulationTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.PushNotificationSimulationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,15 +473,6 @@
 			buildConfigurations = (
 				48752459233385D000CC8AB5 /* Debug */,
 				4875245A233385D000CC8AB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48BF2B2D2333B00D00B215DB /* Build configuration list for PBXNativeTarget "PushNotificationSimulationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48BF2B2B2333B00D00B215DB /* Debug */,
-				48BF2B2C2333B00D00B215DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
