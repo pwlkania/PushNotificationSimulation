@@ -13,6 +13,7 @@
 		48752451233385D000CC8AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4875244F233385D000CC8AB5 /* Main.storyboard */; };
 		48752453233385D000CC8AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48752452233385D000CC8AB5 /* Assets.xcassets */; };
 		48752456233385D000CC8AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48752454233385D000CC8AB5 /* LaunchScreen.storyboard */; };
+		4875245C233387F600CC8AB5 /* PushNotificationSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		48752452233385D000CC8AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48752455233385D000CC8AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48752457233385D000CC8AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSimulation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				4875241F2333855D00CC8AB5 /* PushNotificationSimulation.h */,
 				487524202333855D00CC8AB5 /* Info.plist */,
+				4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */,
 			);
 			path = PushNotificationSimulation;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				TargetAttributes = {
 					4875241B2333855D00CC8AB5 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					48752448233385CF00CC8AB5 = {
 						CreatedOnToolsVersion = 10.3;
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4875245C233387F600CC8AB5 /* PushNotificationSimulation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +360,7 @@
 		487524252333855D00CC8AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -371,6 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.PushNotificationSimulation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,6 +386,7 @@
 		487524262333855D00CC8AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
