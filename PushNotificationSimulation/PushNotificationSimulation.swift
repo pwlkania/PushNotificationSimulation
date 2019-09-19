@@ -7,8 +7,6 @@
 
 import UIKit
 
-#if DEBUG
-
 // MARK: - PushNotificationSimulation
 
 public protocol PushNotificationSimulation {
@@ -63,5 +61,3 @@ public func simPush(payload: String, delay: TimeInterval = 0) {
         appDelegate.send(payload: payload)
     }
 }
-
-#endif
