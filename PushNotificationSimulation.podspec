@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/pwlkania/PushNotificationSimulation.git", :tag => "#{spec.version}" }
-  spec.source_files = "Source"
+  spec.source_files = "Source/{*.swift}"
 end
