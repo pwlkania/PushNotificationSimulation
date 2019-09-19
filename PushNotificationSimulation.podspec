@@ -6,8 +6,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Paweł Kania" => "pkania@pgs-soft.com" }
-  spec.platform     = :ios
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/pwlkania/PushNotificationSimulation.git", :tag => "#{spec.version}" }
-  spec.source_files = "Source/{*.swift}"
+  spec.source_files = "PushNotificationSimulation/{*.swift}"
 end
