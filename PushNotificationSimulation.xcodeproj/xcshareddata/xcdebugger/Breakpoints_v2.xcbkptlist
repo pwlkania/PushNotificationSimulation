@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "4"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "PushNotificationSimulationExamples/ViewController.swift"
+            timestampString = "590580758.182858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "e simPush(payload: &quot;{\&quot;aps\&quot;:{\&quot;alert\&quot;:{\&quot;title\&quot;:\&quot;Game Request\&quot;,\&quot;subtitle\&quot;:\&quot;Five Card Draw\&quot;,\&quot;body\&quot;:\&quot;Bob wants to play poker\&quot;},\&quot;category\&quot;:\&quot;GAME_INVITATION\&quot;},\&quot;gameID\&quot;:\&quot;12345678\&quot;}&quot;, delay: 3)">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
