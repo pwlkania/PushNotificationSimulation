@@ -153,6 +153,11 @@
 					};
 					48752448233385CF00CC8AB5 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};

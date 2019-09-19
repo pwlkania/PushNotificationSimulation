@@ -1,8 +1,8 @@
 //
 //  PushNotificationSimulation.swift
+//  PushNotificationSimulation
 //
 //  Created by Pawel Kania on 19/09/2019.
-//  Copyright © 2019 Pawel Kania. All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - PushNotificationSimulation
 
-protocol PushNotificationSimulation {
+public protocol PushNotificationSimulation {
     
     // MARK: Properties
     
@@ -21,7 +21,7 @@ protocol PushNotificationSimulation {
 
 // MARK: - PushNotificationSimulation where UIApplicationDelegate
 
-extension PushNotificationSimulation where Self: UIApplicationDelegate {
+public extension PushNotificationSimulation where Self: UIApplicationDelegate {
     
     // MARK: Functions
     
@@ -51,12 +51,12 @@ extension PushNotificationSimulation where Self: UIApplicationDelegate {
 
 // MARK: - Global functions
 
-/// Global function which will send simulated push notification
+/// Global function which sends simulated push notification
 ///
 /// - Parameters:
 ///   - payload: Content of push notification
 ///   - delay: Delay after which push notification will be send
-func simPush(payload: String, delay: TimeInterval = 0) {
+public func simPush(payload: String, delay: TimeInterval = 0) {
     
     DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
         guard let appDelegate = UIApplication.shared.delegate as? PushNotificationSimulation & UIApplicationDelegate else { return }
