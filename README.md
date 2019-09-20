@@ -6,8 +6,8 @@
 [![Travis](https://travis-ci.org/pwlkania/PushNotificationSimulation.svg?branch=master)](https://travis-ci.org/pwlkania/PushNotificationSimulation.svg?branch=master)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/PushNotificationSimulation.svg)](https://cocoapods.org/pods/PushNotificationSimulation)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Platform](https://img.shields.io/cocoapods/p/PuzzleMaker.svg)](http://cocoadocs.org/docsets/PuzzleMaker)
-[![License](https://img.shields.io/cocoapods/l/PuzzleMaker.svg)](https://github.com/PGSSoft/PuzzleMaker)
+[![Platform](https://img.shields.io/cocoapods/p/PushNotificationSimulation.svg)](http://cocoadocs.org/docsets/PushNotificationSimulation)
+[![License](https://img.shields.io/cocoapods/l/PushNotificationSimulation.svg)](https://github.com/PGSSoft/PushNotificationSimulation)
 
 ## Installation
 
