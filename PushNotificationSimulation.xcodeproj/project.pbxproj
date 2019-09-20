@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		482392D02334B4F80099A303 /* PushNotificationSimulationExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482392CF2334B4F80099A303 /* PushNotificationSimulationExamplesTests.swift */; };
+		482392D92334B6720099A303 /* AppDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482392D82334B6720099A303 /* AppDelegateMock.swift */; };
 		487524212333855D00CC8AB5 /* PushNotificationSimulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4875241F2333855D00CC8AB5 /* PushNotificationSimulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4875244C233385D000CC8AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875244B233385D000CC8AB5 /* AppDelegate.swift */; };
 		4875244E233385D000CC8AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875244D233385D000CC8AB5 /* ViewController.swift */; };
@@ -16,7 +18,21 @@
 		4875245C233387F600CC8AB5 /* PushNotificationSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		482392D22334B4F80099A303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487524132333855D00CC8AB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48752448233385CF00CC8AB5;
+			remoteInfo = PushNotificationSimulationExamples;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		482392CD2334B4F80099A303 /* PushNotificationSimulationExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationSimulationExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		482392CF2334B4F80099A303 /* PushNotificationSimulationExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSimulationExamplesTests.swift; sourceTree = "<group>"; };
+		482392D12334B4F80099A303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482392D82334B6720099A303 /* AppDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateMock.swift; sourceTree = "<group>"; };
 		4875241C2333855D00CC8AB5 /* PushNotificationSimulation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PushNotificationSimulation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4875241F2333855D00CC8AB5 /* PushNotificationSimulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationSimulation.h; sourceTree = "<group>"; };
 		487524202333855D00CC8AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +47,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		482392CA2334B4F80099A303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		487524192333855D00CC8AB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,11 +71,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		482392CE2334B4F80099A303 /* PushNotificationSimulationExamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				482392CF2334B4F80099A303 /* PushNotificationSimulationExamplesTests.swift */,
+				482392D72334B6640099A303 /* Mocks */,
+				482392D12334B4F80099A303 /* Info.plist */,
+			);
+			path = PushNotificationSimulationExamplesTests;
+			sourceTree = "<group>";
+		};
+		482392D72334B6640099A303 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				482392D82334B6720099A303 /* AppDelegateMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		487524122333855D00CC8AB5 = {
 			isa = PBXGroup;
 			children = (
 				4875241E2333855D00CC8AB5 /* PushNotificationSimulation */,
 				4875244A233385D000CC8AB5 /* PushNotificationSimulationExamples */,
+				482392CE2334B4F80099A303 /* PushNotificationSimulationExamplesTests */,
 				4875241D2333855D00CC8AB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +104,7 @@
 			children = (
 				4875241C2333855D00CC8AB5 /* PushNotificationSimulation.framework */,
 				48752449233385CF00CC8AB5 /* PushNotificationSimulationExamples.app */,
+				482392CD2334B4F80099A303 /* PushNotificationSimulationExamplesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +146,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		482392CC2334B4F80099A303 /* PushNotificationSimulationExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482392D62334B4F80099A303 /* Build configuration list for PBXNativeTarget "PushNotificationSimulationExamplesTests" */;
+			buildPhases = (
+				482392C92334B4F80099A303 /* Sources */,
+				482392CA2334B4F80099A303 /* Frameworks */,
+				482392CB2334B4F80099A303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				482392D32334B4F80099A303 /* PBXTargetDependency */,
+			);
+			name = PushNotificationSimulationExamplesTests;
+			productName = PushNotificationSimulationExamplesTests;
+			productReference = 482392CD2334B4F80099A303 /* PushNotificationSimulationExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4875241B2333855D00CC8AB5 /* PushNotificationSimulation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 487524242333855D00CC8AB5 /* Build configuration list for PBXNativeTarget "PushNotificationSimulation" */;
@@ -147,6 +208,10 @@
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				TargetAttributes = {
+					482392CC2334B4F80099A303 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 48752448233385CF00CC8AB5;
+					};
 					4875241B2333855D00CC8AB5 = {
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1030;
@@ -176,11 +241,19 @@
 			targets = (
 				4875241B2333855D00CC8AB5 /* PushNotificationSimulation */,
 				48752448233385CF00CC8AB5 /* PushNotificationSimulationExamples */,
+				482392CC2334B4F80099A303 /* PushNotificationSimulationExamplesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		482392CB2334B4F80099A303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4875241A2333855D00CC8AB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +274,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		482392C92334B4F80099A303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482392D92334B6720099A303 /* AppDelegateMock.swift in Sources */,
+				482392D02334B4F80099A303 /* PushNotificationSimulationExamplesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		487524182333855D00CC8AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +301,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		482392D32334B4F80099A303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48752448233385CF00CC8AB5 /* PushNotificationSimulationExamples */;
+			targetProxy = 482392D22334B4F80099A303 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4875244F233385D000CC8AB5 /* Main.storyboard */ = {
@@ -240,6 +330,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		482392D42334B4F80099A303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PushNotificationSimulationExamplesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PushNotificationSimulationExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNotificationSimulationExamples.app/PushNotificationSimulationExamples";
+			};
+			name = Debug;
+		};
+		482392D52334B4F80099A303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PushNotificationSimulationExamplesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PushNotificationSimulationExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNotificationSimulationExamples.app/PushNotificationSimulationExamples";
+			};
+			name = Release;
+		};
 		487524222333855D00CC8AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -450,6 +580,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		482392D62334B4F80099A303 /* Build configuration list for PBXNativeTarget "PushNotificationSimulationExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482392D42334B4F80099A303 /* Debug */,
+				482392D52334B4F80099A303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		487524162333855D00CC8AB5 /* Build configuration list for PBXProject "PushNotificationSimulation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -6,15 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "PushNotificationSimulationExamples/ViewController.swift"
-            timestampString = "590591749.600639"
+            timestampString = "590661758.7452019"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Actions>
@@ -22,6 +22,54 @@
                   ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
                   <ActionContent
                      consoleCommand = "e simPush(payload: &quot;{\&quot;aps\&quot;:{\&quot;alert\&quot;:{\&quot;title\&quot;:\&quot;Game Request\&quot;,\&quot;subtitle\&quot;:\&quot;Five Card Draw\&quot;,\&quot;body\&quot;:\&quot;Bob wants to play poker\&quot;},\&quot;category\&quot;:\&quot;GAME_INVITATION\&quot;},\&quot;gameID\&quot;:\&quot;12345678\&quot;}&quot;, delay: 3)">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "PushNotificationSimulationExamplesTests/PushNotificationSimulationExamplesTests.swift"
+            timestampString = "590661758.745654"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "testInstantPush()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "e simPush(payload: payload1)">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "PushNotificationSimulationExamplesTests/PushNotificationSimulationExamplesTests.swift"
+            timestampString = "590661758.74634"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "testDelayedPush()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "e simPush(payload: payload2)">
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>

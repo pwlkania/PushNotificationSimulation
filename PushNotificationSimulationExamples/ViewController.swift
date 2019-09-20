@@ -11,6 +11,7 @@ import PushNotificationSimulation
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
+        // This breakpoint is disabled, because it has an influence on the unit tests!
         super.viewDidLoad()
         
         // You can also use global function `simPush(...)` in the code, however it's safer to stick to the breakpoints
