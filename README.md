@@ -3,6 +3,7 @@
 `PushNotificationSimulation` helps in simulating push notifications in the application during development.
 
 [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-green.svg?style=flat)](https://swift.org/)
+[![Travis](https://travis-ci.org/pwlkania/PushNotificationSimulation.svg?branch=master](https://travis-ci.org/pwlkania/PushNotificationSimulation.svg?branch=master)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/PushNotificationSimulation.svg)](https://cocoapods.org/pods/PushNotificationSimulation)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/PuzzleMaker.svg)](http://cocoadocs.org/docsets/PuzzleMaker)
