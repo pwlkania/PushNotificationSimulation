@@ -122,7 +122,7 @@ class PushNotificationSimulationExamplesTests: XCTestCase {
         XCTAssertTrue(UIApplication.shared.delegate === appDelegate)
         
         // You can even test breakpoints. To do so, comment line below and enable near breakpoint
-        sim(deviceToken: deviceToken2)
+        sim(deviceToken: deviceToken2, delay: 3)
         
         guard let expectation = delayedDeviceTokenExpectation else {
             XCTFail()
