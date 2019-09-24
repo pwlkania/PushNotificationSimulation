@@ -16,6 +16,8 @@
 		48752453233385D000CC8AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48752452233385D000CC8AB5 /* Assets.xcassets */; };
 		48752456233385D000CC8AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48752454233385D000CC8AB5 /* LaunchScreen.storyboard */; };
 		4875245C233387F600CC8AB5 /* PushNotificationSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */; };
+		489078B6233A0D7D00E33DC0 /* PushNotificationSimulation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4875241C2333855D00CC8AB5 /* PushNotificationSimulation.framework */; };
+		489078B7233A0D7D00E33DC0 /* PushNotificationSimulation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4875241C2333855D00CC8AB5 /* PushNotificationSimulation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +28,28 @@
 			remoteGlobalIDString = 48752448233385CF00CC8AB5;
 			remoteInfo = PushNotificationSimulationExamples;
 		};
+		489078B8233A0D7D00E33DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487524132333855D00CC8AB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4875241B2333855D00CC8AB5;
+			remoteInfo = PushNotificationSimulation;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		489078BA233A0D7D00E33DC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				489078B7233A0D7D00E33DC0 /* PushNotificationSimulation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		482392CD2334B4F80099A303 /* PushNotificationSimulationExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationSimulationExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +67,7 @@
 		48752455233385D000CC8AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48752457233385D000CC8AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4875245B233387F600CC8AB5 /* PushNotificationSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSimulation.swift; sourceTree = "<group>"; };
+		489078BB233A0FA700E33DC0 /* PushNotificationSimulationExamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotificationSimulationExamples.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489078B6233A0D7D00E33DC0 /* PushNotificationSimulation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +121,7 @@
 				4875244A233385D000CC8AB5 /* PushNotificationSimulationExamples */,
 				482392CE2334B4F80099A303 /* PushNotificationSimulationExamplesTests */,
 				4875241D2333855D00CC8AB5 /* Products */,
+				489078B5233A0D7D00E33DC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +148,7 @@
 		4875244A233385D000CC8AB5 /* PushNotificationSimulationExamples */ = {
 			isa = PBXGroup;
 			children = (
+				489078BB233A0FA700E33DC0 /* PushNotificationSimulationExamples.entitlements */,
 				4875244B233385D000CC8AB5 /* AppDelegate.swift */,
 				4875244D233385D000CC8AB5 /* ViewController.swift */,
 				4875244F233385D000CC8AB5 /* Main.storyboard */,
@@ -130,6 +157,13 @@
 				48752457233385D000CC8AB5 /* Info.plist */,
 			);
 			path = PushNotificationSimulationExamples;
+			sourceTree = "<group>";
+		};
+		489078B5233A0D7D00E33DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,10 +223,12 @@
 				48752445233385CF00CC8AB5 /* Sources */,
 				48752446233385CF00CC8AB5 /* Frameworks */,
 				48752447233385CF00CC8AB5 /* Resources */,
+				489078BA233A0D7D00E33DC0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				489078B9233A0D7D00E33DC0 /* PBXTargetDependency */,
 			);
 			name = PushNotificationSimulationExamples;
 			productName = PushNotificationSimulationExamples;
@@ -307,6 +343,11 @@
 			isa = PBXTargetDependency;
 			target = 48752448233385CF00CC8AB5 /* PushNotificationSimulationExamples */;
 			targetProxy = 482392D22334B4F80099A303 /* PBXContainerItemProxy */;
+		};
+		489078B9233A0D7D00E33DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4875241B2333855D00CC8AB5 /* PushNotificationSimulation */;
+			targetProxy = 489078B8233A0D7D00E33DC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -509,6 +550,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PushNotificationSimulation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -535,6 +577,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PushNotificationSimulation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -547,12 +590,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationSimulationExamples/PushNotificationSimulationExamples.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PushNotificationSimulationExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PushNotificationSimulationExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -564,12 +610,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationSimulationExamples/PushNotificationSimulationExamples.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PushNotificationSimulationExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.PushNotificationSimulationExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

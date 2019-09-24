@@ -7,31 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C5A96C53-7B50-423A-9775-973E89E3002C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "Yes"
-            filePath = "PushNotificationSimulationExamples/ViewController.swift"
-            timestampString = "590663681.9297071"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Actions>
-               <BreakpointActionProxy
-                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
-                  <ActionContent
-                     consoleCommand = "e simPush(payload: &quot;{\&quot;aps\&quot;:{\&quot;alert\&quot;:{\&quot;title\&quot;:\&quot;Game Request\&quot;,\&quot;subtitle\&quot;:\&quot;Five Card Draw\&quot;,\&quot;body\&quot;:\&quot;Bob wants to play poker\&quot;},\&quot;category\&quot;:\&quot;GAME_INVITATION\&quot;},\&quot;gameID\&quot;:\&quot;12345678\&quot;}&quot;, delay: 3)">
-                  </ActionContent>
-               </BreakpointActionProxy>
-            </Actions>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "AA4454D7-C0FB-45B7-8C69-DC51A13E8338"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -40,15 +15,15 @@
             timestampString = "590663681.93013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "testInstantPush()"
             landmarkType = "7">
             <Actions>
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
                   <ActionContent
-                     consoleCommand = "e simPush(payload: payload1)">
+                     consoleCommand = "e sim(payload: payload1)">
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>
@@ -65,15 +40,111 @@
             timestampString = "590663681.9313689"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "testDelayedPush()"
             landmarkType = "7">
             <Actions>
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
                   <ActionContent
-                     consoleCommand = "e simPush(payload: payload2)">
+                     consoleCommand = "e sim(payload: payload2)">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D079F9BC-5FBC-4EC1-A9AB-FDAFB592C299"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "PushNotificationSimulationExamplesTests/PushNotificationSimulationExamplesTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "testDelayedDeviceToken()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "e sim(deviceToken: deviceToken2)">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2366046A-7A34-407E-946A-A1A58E1DBD06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "PushNotificationSimulationExamplesTests/PushNotificationSimulationExamplesTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "testInstantDeviceToken()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "e sim(deviceToken: deviceToken1)">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD564A01-56AE-40C9-9578-F2FEB4C84D8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "PushNotificationSimulationExamples/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "e sim(deviceToken: &quot;933e3112d1eae4a1d8eb48617a265b303be28b300193b9677f0ccf52a63a5b1e&quot;)">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46592A90-CC5F-42EE-B1D3-2F69F2A7BB5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "PushNotificationSimulationExamples/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "e sim(payload: &quot;{\&quot;aps\&quot;:{\&quot;alert\&quot;:{\&quot;title\&quot;:\&quot;Game Request\&quot;,\&quot;subtitle\&quot;:\&quot;Five Card Draw\&quot;,\&quot;body\&quot;:\&quot;Bob wants to play poker\&quot;},\&quot;category\&quot;:\&quot;GAME_INVITATION\&quot;},\&quot;gameID\&quot;:\&quot;12345678\&quot;}&quot;, delay: 3)">
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>

@@ -1,6 +1,6 @@
 // swift-tools-version:5.1
 //
-//  Package.swift
+// Package.swift
 //
 // Copyright (c) 2019 Paweł Kania
 //

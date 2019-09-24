@@ -60,17 +60,25 @@ extension AppDelegate: PushNotificationSimulation { }
 
 ## Usage
 
-Using breakpoints with debugger command (suggested approach) - example:
+Using breakpoints with debugger command (suggested approach). 
 
+Push notification example:
+
+```Swift
+sim(payload: "{\"aps\":{\"alert\":{\"title\":\"Game Request\",\"subtitle\":\"Five Card Draw\",\"body\":\"Bob wants to play poker\"},\"category\":\"GAME_INVITATION\"},\"gameID\":\"12345678\"}", delay: 3)
 ```
-e simPush(payload: "{\"aps\":{\"alert\":{\"title\":\"Game Request\",\"subtitle\":\"Five Card Draw\",\"body\":\"Bob wants to play poker\"},\"category\":\"GAME_INVITATION\"},\"gameID\":\"12345678\"}", delay: 3)
+
+![Payload.png](Payload.png)
+
+Device token example:
+
+```Swift
+sim(deviceToken: "933e3112d1eae4a1d8eb48617a265b303be28b300193b9677f0ccf52a63a5b1e")
 ```
 
-![Breakpoint.png](Breakpoint.png)
+![DeviceToken.png](DeviceToken.png)
 
-You can also use `simPush(...)` global function directly in the code. However it might cause issues when code is not deactivated in production version of your application. Be careful.
-
-![Code.png](Code.png)
+You can also use `sim(payload: ...)` or `sim(deviceToken: ...)` global functions directly in the code. However it might cause issues when code is not deactivated in production version of your application. Be careful.
 
 ## License
 
