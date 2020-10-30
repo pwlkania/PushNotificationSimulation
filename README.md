@@ -2,13 +2,13 @@
 
 `PushNotificationSimulation` helps in simulating push notifications in the application during development.
 
-[![Swift 5.0](https://img.shields.io/badge/swift-5.0-4BC51D.svg?style=flat)](https://swift.org/)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange)](https://swift.org/)
 [![Travis](https://travis-ci.org/pwlkania/PushNotificationSimulation.svg?branch=master)](https://travis-ci.org/pwlkania/PushNotificationSimulation.svg?branch=master)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/PushNotificationSimulation.svg)](https://cocoapods.org/pods/PushNotificationSimulation)
-[![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Swift Package Manager Compatible](https://img.shields.io/badge/swift%20package%20manager-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen)](https://github.com/Carthage/Carthage)
+[![SPM](https://img.shields.io/badge/SPM-supported-brightgreen)](https://swift.org/package-manager/)
 [![Platform](https://img.shields.io/cocoapods/p/PushNotificationSimulation.svg)](http://cocoadocs.org/docsets/PushNotificationSimulation)
-[![License](https://img.shields.io/cocoapods/l/PushNotificationSimulation.svg)](https://github.com/PGSSoft/PushNotificationSimulation)
+[![License](https://img.shields.io/cocoapods/l/PushNotificationSimulation.svg)](https://github.com/pwlkania/PushNotificationSimulation/blob/master/LICENSE)
 
 ## Installation
 

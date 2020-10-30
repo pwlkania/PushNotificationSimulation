@@ -24,7 +24,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "PushNotificationSimulation"
-  spec.version      = "1.1.1"
+  spec.version      = "1.1.2"
   spec.summary      = "Helper in simulating push notifications"
   spec.homepage     = "https://github.com/pwlkania/PushNotificationSimulation"
   spec.license      = "MIT"
